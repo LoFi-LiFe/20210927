@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-	int TimesTable;
-	cout << "구구단 몇단을 출력 할 까요?" << endl;
+	int TimesTable = 0;
+	cout << "구구단 몇단을 출력 할 까요?";
 	cin >> TimesTable;
 
 	for (int i = 1; i < 10; i++)
